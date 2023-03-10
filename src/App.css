@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.col {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.App-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 17px;
+  /* font-size: calc(6px + 2vmin); */
+  color: white;
+}
+
+.dropdown {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* 
+.button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+
+.input-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-content {
+  display: flex;
+}
+
+.form-group {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  width: 100px;
+  line-height: 26px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
+/* .buttonW {
+  width: "50%";
+  height: "10%";
+} */

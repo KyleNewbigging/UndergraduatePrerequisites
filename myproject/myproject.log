@@ -1,0 +1,216 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Sun Mar 13 23:40:44 2022] ***
+compiled with version: 8.3.0 on 13 March 2022 19:00:00
+os: Linux-4.19.0-18-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29)
+nodename: 3760-w22-04
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sysadmin/myproject
+detected binary path: /home/sysadmin/myproject/myprojectenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 1816
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address myproject.sock fd 3
+Python version: 3.7.3 (default, Jan 22 2021, 20:04:44)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55da97870980
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55da97870980 pid: 5331 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5331)
+spawned uWSGI worker 1 (pid: 5333, cores: 1)
+spawned uWSGI worker 2 (pid: 5334, cores: 1)
+spawned uWSGI worker 3 (pid: 5335, cores: 1)
+spawned uWSGI worker 4 (pid: 5336, cores: 1)
+spawned uWSGI worker 5 (pid: 5337, cores: 1)
+[pid: 5333|app: 0|req: 1/1] 10.131.119.120 () {40 vars in 738 bytes} [Sun Mar 13 23:51:06 2022] GET / => generated 43 bytes in 15 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
+[pid: 5335|app: 0|req: 1/2] 10.131.119.120 () {40 vars in 692 bytes} [Sun Mar 13 23:51:06 2022] GET /favicon.ico => generated 232 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 5333|app: 0|req: 2/3] 99.225.204.38 () {40 vars in 737 bytes} [Sun Mar 13 23:51:49 2022] GET / => generated 43 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 5333|app: 0|req: 3/4] 99.225.204.38 () {40 vars in 737 bytes} [Sun Mar 13 23:57:44 2022] GET / => generated 43 bytes in 26 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 5335|app: 0|req: 2/5] 99.225.204.38 () {40 vars in 691 bytes} [Sun Mar 13 23:57:44 2022] GET /favicon.ico => generated 232 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 5333|app: 0|req: 4/6] 99.225.204.38 () {40 vars in 710 bytes} [Mon Mar 14 00:00:39 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 7 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
+[pid: 5335|app: 0|req: 3/7] 99.225.204.38 () {40 vars in 710 bytes} [Mon Mar 14 00:00:39 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 5334|app: 0|req: 1/8] 99.225.204.38 () {40 vars in 710 bytes} [Mon Mar 14 00:00:40 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 14 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 5333|app: 0|req: 5/9] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:01:33 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket myproject.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Mon Mar 14 00:06:17 2022] ***
+compiled with version: 8.3.0 on 13 March 2022 19:00:00
+os: Linux-4.19.0-18-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29)
+nodename: 3760-w22-04
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sysadmin/myproject
+detected binary path: /home/sysadmin/myproject/myprojectenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 1816
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address myproject.sock fd 3
+Python version: 3.7.3 (default, Jan 22 2021, 20:04:44)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x557daa22e980
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x557daa22e980 pid: 5608 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5608)
+spawned uWSGI worker 1 (pid: 5610, cores: 1)
+spawned uWSGI worker 2 (pid: 5611, cores: 1)
+spawned uWSGI worker 3 (pid: 5612, cores: 1)
+spawned uWSGI worker 4 (pid: 5613, cores: 1)
+spawned uWSGI worker 5 (pid: 5614, cores: 1)
+[pid: 5610|app: 0|req: 1/1] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:06:33 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5610|app: 0|req: 2/2] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:27 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5614|app: 0|req: 1/3] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:27 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 17 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5610|app: 0|req: 3/4] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:28 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5611|app: 0|req: 1/5] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:28 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5610|app: 0|req: 4/6] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:29 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5613|app: 0|req: 1/7] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:29 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5610|app: 0|req: 5/8] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:29 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5611|app: 0|req: 2/9] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:30 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5614|app: 0|req: 2/10] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:30 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5612|app: 0|req: 1/11] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:30 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5610|app: 0|req: 6/12] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:30 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5613|app: 0|req: 2/13] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:31 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5614|app: 0|req: 3/14] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:31 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5611|app: 0|req: 3/15] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:31 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5614|app: 0|req: 4/16] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:31 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5610|app: 0|req: 7/17] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:08:32 2022] GET /?data1=Value%201&data2=1234.56 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket myproject.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Mon Mar 14 00:10:28 2022] ***
+compiled with version: 8.3.0 on 13 March 2022 19:00:00
+os: Linux-4.19.0-18-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29)
+nodename: 3760-w22-04
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/sysadmin/myproject
+detected binary path: /home/sysadmin/myproject/myprojectenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 1816
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address myproject.sock fd 3
+Python version: 3.7.3 (default, Jan 22 2021, 20:04:44)  [GCC 8.3.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55e634321980
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55e634321980 pid: 5638 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5638)
+spawned uWSGI worker 1 (pid: 5640, cores: 1)
+spawned uWSGI worker 2 (pid: 5641, cores: 1)
+spawned uWSGI worker 3 (pid: 5642, cores: 1)
+spawned uWSGI worker 4 (pid: 5643, cores: 1)
+spawned uWSGI worker 5 (pid: 5644, cores: 1)
+[pid: 5643|app: 0|req: 1/1] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:36 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5640|app: 0|req: 1/2] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:36 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 2/3] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:36 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5641|app: 0|req: 1/4] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:37 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 3/5] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:37 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 1/6] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:38 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 4/7] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:38 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5642|app: 0|req: 1/8] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:38 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 5/9] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:39 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 2/10] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:39 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5640|app: 0|req: 2/11] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:39 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5641|app: 0|req: 2/12] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:40 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5640|app: 0|req: 3/13] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:40 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 3/14] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:40 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5643|app: 0|req: 6/15] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:40 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5641|app: 0|req: 3/16] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:41 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5642|app: 0|req: 2/17] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:41 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5640|app: 0|req: 4/18] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:41 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5644|app: 0|req: 4/19] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:42 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5641|app: 0|req: 4/20] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:10:43 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5642|app: 0|req: 3/21] 35.196.132.85 () {30 vars in 393 bytes} [Mon Mar 14 00:26:02 2022] GET / => generated 17 bytes in 31 msecs (HTTP/1.1 200) 3 headers in 111 bytes (2 switches on core 0)
+[pid: 5641|app: 0|req: 5/22] 193.34.167.111 () {36 vars in 513 bytes} [Mon Mar 14 00:39:11 2022] GET / => generated 17 bytes in 146 msecs (HTTP/1.1 200) 3 headers in 111 bytes (2 switches on core 0)
+[pid: 5640|app: 0|req: 5/23] 10.131.102.216 () {42 vars in 804 bytes} [Mon Mar 14 00:48:02 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 96 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 7/24] 10.131.102.216 () {42 vars in 729 bytes} [Mon Mar 14 00:48:02 2022] GET /favicon.ico => generated 232 bytes in 102 msecs (HTTP/1.1 404) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 5642|app: 0|req: 4/25] 10.131.105.26 () {40 vars in 743 bytes} [Mon Mar 14 00:57:57 2022] GET / => generated 17 bytes in 160 msecs (HTTP/1.1 200) 3 headers in 111 bytes (2 switches on core 0)
+[pid: 5643|app: 0|req: 8/26] 10.131.105.26 () {40 vars in 697 bytes} [Mon Mar 14 00:57:58 2022] GET /favicon.ico => generated 232 bytes in 52 msecs (HTTP/1.1 404) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 5640|app: 0|req: 6/27] 10.131.105.148 () {40 vars in 753 bytes} [Mon Mar 14 00:58:02 2022] GET / => generated 17 bytes in 76 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 9/28] 10.131.105.148 () {40 vars in 707 bytes} [Mon Mar 14 00:58:02 2022] GET /favicon.ico => generated 232 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 119 bytes (2 switches on core 0)
+[pid: 5643|app: 0|req: 10/29] 10.131.105.26 () {40 vars in 751 bytes} [Mon Mar 14 00:58:05 2022] GET /3000 => generated 232 bytes in 20 msecs (HTTP/1.1 404) 3 headers in 119 bytes (2 switches on core 0)
+[pid: 5643|app: 0|req: 11/30] 10.131.102.136 () {40 vars in 681 bytes} [Mon Mar 14 00:58:24 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5643|app: 0|req: 12/31] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 00:58:26 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5641|app: 0|req: 6/32] 10.131.105.148 () {40 vars in 753 bytes} [Mon Mar 14 01:00:35 2022] GET / => generated 17 bytes in 186 msecs (HTTP/1.1 200) 3 headers in 111 bytes (2 switches on core 0)
+[pid: 5643|app: 0|req: 13/33] 10.131.105.26 () {40 vars in 692 bytes} [Mon Mar 14 01:00:53 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 68 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 14/34] 10.131.102.216 () {42 vars in 694 bytes} [Mon Mar 14 01:00:59 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 15/35] 10.131.105.26 () {40 vars in 692 bytes} [Mon Mar 14 01:01:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 16/36] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:01:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 17/37] 10.131.105.148 () {40 vars in 753 bytes} [Mon Mar 14 01:01:09 2022] GET / => generated 17 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 18/38] 10.131.105.26 () {40 vars in 692 bytes} [Mon Mar 14 01:01:10 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 19/39] 10.131.105.148 () {40 vars in 702 bytes} [Mon Mar 14 01:01:18 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 3 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 20/40] 10.131.105.148 () {40 vars in 702 bytes} [Mon Mar 14 01:01:19 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 21/41] 10.131.105.148 () {40 vars in 702 bytes} [Mon Mar 14 01:03:43 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 22/42] 10.131.105.148 () {40 vars in 702 bytes} [Mon Mar 14 01:03:44 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5640|app: 0|req: 7/43] 10.131.105.148 () {40 vars in 702 bytes} [Mon Mar 14 01:03:53 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 85 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5642|app: 0|req: 5/44] 10.131.102.136 () {40 vars in 681 bytes} [Mon Mar 14 01:13:30 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 100 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5642|app: 0|req: 6/45] 130.211.54.158 () {42 vars in 566 bytes} [Mon Mar 14 01:15:34 2022] GET / => generated 17 bytes in 125 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 23/46] 10.131.102.136 () {40 vars in 681 bytes} [Mon Mar 14 01:22:58 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 106 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 24/47] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:04 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5643|app: 0|req: 25/48] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:05 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 4 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5640|app: 0|req: 8/49] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 76 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 26/50] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5642|app: 0|req: 7/51] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 72 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 27/52] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5641|app: 0|req: 7/53] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 56 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 28/54] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5642|app: 0|req: 8/55] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 01:23:07 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 29/56] 10.131.105.26 () {40 vars in 692 bytes} [Mon Mar 14 01:23:24 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 30/57] 221.2.155.199 () {30 vars in 330 bytes} [Mon Mar 14 01:47:45 2022] GET / => generated 17 bytes in 117 msecs (HTTP/1.0 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 5/58] 193.118.53.210 () {34 vars in 490 bytes} [Mon Mar 14 02:03:23 2022] GET / => generated 17 bytes in 95 msecs (HTTP/1.1 200) 3 headers in 111 bytes (2 switches on core 0)
+[pid: 5643|app: 0|req: 31/59] 84.195.240.176 () {28 vars in 310 bytes} [Mon Mar 14 02:05:53 2022] GET / => generated 17 bytes in 7 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 32/60] 84.195.240.176 () {28 vars in 310 bytes} [Mon Mar 14 02:06:22 2022] GET / => generated 17 bytes in 8 msecs (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 33/61] 109.237.103.9 () {36 vars in 525 bytes} [Mon Mar 14 02:18:09 2022] GET /.env => generated 232 bytes in 36 msecs (HTTP/1.1 404) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 6/62] 10.131.107.130 () {40 vars in 705 bytes} [Mon Mar 14 02:21:39 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 34/63] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:02 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 146 bytes (2 switches on core 0)
+[pid: 5640|app: 0|req: 9/64] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:03 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 129 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 35/65] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:05 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 7/66] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:06 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 36/67] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:07 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 37/68] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:12 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5640|app: 0|req: 10/69] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:12 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 38/70] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:13 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 0 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 8/71] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:14 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 39/72] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:14 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5640|app: 0|req: 11/73] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:14 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 9/74] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:15 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 40/75] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:15 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5640|app: 0|req: 12/76] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:15 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 41/77] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:15 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5644|app: 0|req: 10/78] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:15 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5640|app: 0|req: 13/79] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:15 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5643|app: 0|req: 42/80] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:16 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)
+[pid: 5640|app: 0|req: 14/81] 99.225.204.38 () {40 vars in 634 bytes} [Mon Mar 14 03:33:16 2022] GET /?data1=Value%201&data2=1234.56 => generated 17 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 146 bytes (1 switches on core 0)

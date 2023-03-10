@@ -1,0 +1,14 @@
+server {
+
+        listen 80 ssl http2;
+        listen [::]:80 ssl http2;
+        server_name 131.104.49.103;
+
+        ssl_certificate /etc/nginx/ssl/example.crt;
+        ssl_certificate_key /etc/nginx/ssl/example.key;
+
+        location / {
+                include uwsgi_params;
+                uwsgi_pass unix:/home/sysadmin/myproject/myproject.sock;
+        }
+}
