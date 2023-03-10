@@ -1,4 +1,17 @@
-Sprint 9
+## Undergraduate Prerequisites
+This web application was designed during a course called CIS3760 - Software Engineering.
+
+# Description
+This project required my group of five to create a React Web App that takes all Guelph's and Queen's undergrad courses from extracting the information from public sites using pdftotext and Python alongside Flask to display a graph of prereqs using digraph to generate nodes and edges for the user to understand what classes are need for a department. We also used playwright to verify that our site was active and functional. If are site crashed or feature failed then an email would be sent to whoever was working on that feature. 
+
+# Basic Use Case
+A user could search Guelph CIS courses and a directed graph of all CIS courses would appear. 
+The user can interact with the graph by clicking on a specific course and all prereqs would be highlighted. 
+
+
+
+# Group Notes used throughout the semester
+Final Sprint 9 Notes:
 
 During this Sprint we added functionailty to be able to select a course on a graph to see if you were to drop that class what classes you could no longer take.
 As well as, implementing Queen's into the options for Graphing, there was also css modified for styling and to make the web app responsive 
